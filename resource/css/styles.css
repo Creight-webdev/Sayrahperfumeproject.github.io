@@ -192,6 +192,7 @@ padding-right: 5px;
   .hide {
     display: none;
 }
+
 .menu-button{
   display: block;
 }
@@ -200,11 +201,10 @@ padding-right: 5px;
   height: 600px;
 }
 .collection img{
-  height: 2.5rem;
-  width: 3.7rem;
+  height: 2rem;
+  width: 2.7rem;
   padding: 0 14px;
-  
-  
+ 
 }
   }
 
@@ -222,7 +222,7 @@ padding-right: 5px;
 }
 .collection img{
   height: 2rem;
-  width: 2.8rem;
+  width: 2.7rem;
   padding: 0 6px;
  
 }
