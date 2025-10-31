@@ -115,7 +115,7 @@ nav li:first-child{
 
 
 
-/*nBANNER STARTS HERE*/
+/*BANNER STARTS HERE*/
 .banner{
   background-image: url(../images/cccccccccc.jpg);
   height: 700px;
@@ -123,27 +123,84 @@ nav li:first-child{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
 }
+
+.banner-text{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  height: 50%;
+  border-radius: 3px;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  background-color: rgba(146, 146, 147, 0.053);
+padding-bottom: 135px;
+padding-top: 80px;
+  
+}
+
+.banner-text p{
+  font-weight: bolder;
+  font-size: 2.4rem;
+  height: 2.5rem;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 4px rgba(196, 196, 196, 0.699);
+ padding-left: 10px;
+ max-width: 100%;
+ justify-self: end;
+ padding-right: 15px;
+ position: relative;
+ top: 100px;
+ 
+}
+
+#linger {
+  font-size: 1.5rem;
+  padding-left: 10px;
+  padding-left: 67.9px;
+  
+}
+
+#linger2 {
+font-size: 1rem;
+
+text-shadow: 2px 2px rgba(255, 255, 255, 0);
+display: grid;
+height: 300px;
+max-width: 35%;
+padding-top: 15px;
+text-align: right;
+
+}
+
 
 
 /*Notice section*/
 .notice{
-  background-color: rgb(255, 198, 119);
+  background-color: rgba(0, 0, 0, 0.201);
+  backdrop-filter: blur(5px);
   text-align: center;
   padding: 5px;
   font-weight: bold;
   font-size: 15px;
   height: 40px;
+  position: relative;
+  top: 0.4px;
+ 
 }
 
 .dont-click a{
 position: relative;
 font-size: 1rem;
-background-color: rgb(38, 0, 255);
+background-color: rgb(0, 191, 255);
 top: 3px;
 padding-top: 5px;
 padding-left: 5px;
 padding-right: 5px;
+border-radius: 5px;
 }
 
 .dont-click a:active{
@@ -210,6 +267,8 @@ padding-right: 5px;
 
 
 
+
+
   @media (max-width: 426px) {
     .sidebar{
       width: 100%;
@@ -225,6 +284,33 @@ padding-right: 5px;
   width: 2.7rem;
   padding: 0 6px;
  
+}
+.banner-text{
+  top: 30px;
+padding-bottom: 120px;
+padding-top: 10px;
+  
+}
+
+.banner-text p{
+  font-weight: bolder;
+  font-size: 2rem;
+
+ 
+ 
+}
+
+#linger {
+  font-size: 1rem;
+
+}
+
+#linger2 {
+font-size: 0.8rem;
+position: relative;
+top: 80px;
+
+
 }
 
   }
