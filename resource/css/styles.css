@@ -126,7 +126,7 @@ nav li:first-child{
 
 }
 
-.banner-text{
+//*.banner-text{
   width: 100%;
   display: inline-block;
   position: relative;
@@ -174,7 +174,7 @@ max-width: 35%;
 padding-top: 15px;
 text-align: right;
 
-}
+}*/
 
 
 
@@ -285,7 +285,7 @@ border-radius: 5px;
   padding: 0 6px;
  
 }
-.banner-text{
+/*.banner-text{
   top: 30px;
 padding-bottom: 120px;
 padding-top: 10px;
@@ -312,7 +312,7 @@ top: 80px;
 
 
 }
-
+*/
   }
 
 
