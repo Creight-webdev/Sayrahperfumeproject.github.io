@@ -87,13 +87,12 @@
 </div>
 
 <script>
-/* === SEARCH FUNCTION === */
+/* === SEARCH FUNCTION (redirects to Google) === */
 function performSearch() {
   const query = document.getElementById("s").value.trim();
   if (!query) return;
 
-  // This redirects to /search?q=your+query
-  // Change URL if you want a different search page
+  // Redirect search to Google
   window.location.href = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
 }
 
