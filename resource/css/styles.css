@@ -9,6 +9,47 @@ body{
 }
 
 
+/* SEARCH BAR STARTS HERE*/
+
+.searchbar{
+  background-color: rgb(255, 255, 255);
+  position: relative; 
+ right: 0;
+overflow: hidden;
+display: none;
+padding-bottom: 10px;
+
+}
+
+#s{
+top: 3px;
+height: 2.5rem;
+width: 84%;
+position: relative;
+left: 25px;
+
+
+}
+#b{
+  position: relative;
+  left: 24px;
+  top: 3.5px;
+  height: 43px;
+}
+.hidebar{
+  
+  position: relative;
+  text-decoration: none;
+  height: 20px;
+  top: 18px;
+  left: 28px;
+  
+  
+}
+
+
+
+
 
 
 /* NAVIGATION BAR STARTS HERE*/
@@ -24,6 +65,7 @@ nav ul{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
 }
 
 nav li{
@@ -285,6 +327,9 @@ border-radius: 5px;
   padding: 0 6px;
  
 }
+#s{
+  width: 78.3%;
+}
 /*.banner-text{
   top: 30px;
 padding-bottom: 120px;
@@ -324,6 +369,10 @@ top: 80px;
   height: 2rem;
   width: 2.8rem;
   padding: 0 6px; 
+  
+}
+#s{
+  width: 75.3%;
 }
   }
     
