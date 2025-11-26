@@ -8,8 +8,43 @@ body{
   font-family: 'Courier New', Courier, monospace;
 }
 
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px;
+}
 
-/* SEARCH BAR STARTS HERE*/
+.searchbar input {
+  font-size: 16px; /* prevents zoom on focus */
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.searchbar button {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar .hidebar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* SEARCH BAR STARTS HERE
 
 .searchbar{
   background-color: rgb(255, 255, 255);
@@ -44,11 +79,10 @@ left: 25px;
   top: 18px;
   left: 28px;
   
-  
 }
 
 
-
+*/
 
 
 
@@ -376,4 +410,3 @@ top: 80px;
 }
   }
     
-
