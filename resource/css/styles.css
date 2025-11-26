@@ -13,6 +13,8 @@ body{
   align-items: center;
   gap: 8px;
   margin: 10px;
+  position: relative;
+  left: 5px;
 }
 
 .searchbar input {
@@ -29,11 +31,11 @@ body{
   width: 40px;
   padding: 0;
   border: none;
-  background: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .searchbar .hidebar {
@@ -41,6 +43,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  right: 7px;
 }
 
 
